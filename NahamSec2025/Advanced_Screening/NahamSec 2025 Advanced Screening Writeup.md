@@ -24,7 +24,7 @@ I am not going to start up ZAProxy and try giving it an email:
 
 I got an **ERROR** message! It says that only email addresses from 'movieservice.ctf' are allowed. So let's try 'admin@movieservice.ctf' as the email payload and see what happens:
 
-![Screenshot](Screenshots/Advanced_Screening_NHSec5_1.png)![[Screenshots/Advanced_Screening_NHSec5_2.png]]
+![Screenshot](Screenshots/Advanced_Screening_NHSec5_1.png)![Screenshot](Screenshots/Advanced_Screening_NHSec5_2.png)
 
 Verification email Sent!! Now we are getting somewhere!
 
