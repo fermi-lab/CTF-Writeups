@@ -1,5 +1,5 @@
 
-![[Screenshots/Advanced_Screening_NHSec1.png]]
+![[./Screenshots/Advanced_Screening_NHSec1.png]]
 
 Started by taking a look at the website and seeing what points of entry are available and what I can glean.
 
