@@ -30,8 +30,7 @@ Verification email Sent!! Now we are getting somewhere!
 
 Let's see if this enables the disabled code we saw earlier on the main page.
 
-![[Screenshots/Advanced_Screening_NHSec6_1.png]]
-
+![Screenshot](Screenshots/Advanced_Screening_NHSec6_1.png)
 ![Screenshot](Screenshots/Advanced_Screening_NHSec6_2.png)
 
 Look at that! We can see it now, and in the network tab it shows that the webapp has responded with an app.js file that seems to contain the backend logic. Let's go through it and see how this works.
@@ -49,7 +48,7 @@ Let's try that and see what happens:
 
 So connecting to it without the json payload gives us a message about something we already knew, so let's just use the proxy to make the request again, but this time inject the json payload. I don't know how these id's are formatted, but let's just start with the number 1 and see what happens. Id's are usually numbers and 1 is a number, so why not?
 
-![Screenshot](Screenshots/Advanced_Screening_NHSec9_1.png)![](Screenshots/Advanced_Screening_NHSec9_2.png)
+![Screenshot](Screenshots/Advanced_Screening_NHSec9_1.png)![Screenshot](Screenshots/Advanced_Screening_NHSec9_2.png)
 
 WHOA! Well we didn't get a Token, but this tells us we are on the right track. It means we should try incrementing the user_id to see what other responses we get. 
 
